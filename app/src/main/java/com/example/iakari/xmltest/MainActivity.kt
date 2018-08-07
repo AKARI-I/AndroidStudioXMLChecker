@@ -11,8 +11,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Button
         button.setOnClickListener{
             Toast.makeText(this, "This is Button", Toast.LENGTH_SHORT).show()
+        }
+
+        // ToggleButton
+        toggleButton.setOnClickListener {
+            if(toggleButton.isChecked){
+                // Onの場合
+                checkedTextView.setCheckMarkDrawable(R.drawable.sw_on)
+            } else {
+                // Offの場合
+                checkedTextView.setCheckMarkDrawable(R.drawable.sw_off)
+            }
         }
     }
 }
