@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3f3f3f"
     tools:context="com.example.iakari.xmltest.Widget">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#252525">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:id="@+id/Widgets"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#252525"
             android:orientation="vertical">
 
             <!-- Button -->
@@ -30,17 +29,18 @@
                     android:id="@+id/textButton"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="Button"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="wrap_content"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
+                    android:background="#4a7000"
+                    android:text="Button"
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 
@@ -56,17 +56,18 @@
                     android:id="@+id/textToggleButton"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="ToggleButton"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
 
                 <ToggleButton
                     android:id="@+id/toggleButton"
-                    android:layout_width="40dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ToggleButton" />
+                    android:background="#4a7000"
+                    android:text="ToggleButton"
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 
@@ -82,7 +83,7 @@
                     android:id="@+id/textCheckBox"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="CheckBox"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
@@ -109,7 +110,7 @@
                     android:id="@+id/textRadioButton"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="RadioButton"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
@@ -135,7 +136,7 @@
                     android:id="@+id/textCheckedTextView"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="CheckedTextView"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
@@ -164,7 +165,7 @@
                     android:id="@+id/textSpinner"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="Spinner"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
@@ -188,7 +189,7 @@
                     android:id="@+id/textProgressBar"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="ProgressBar"
                     android:textColor="@android:color/holo_green_dark"
                     android:textSize="14sp" />
@@ -213,7 +214,7 @@
                     android:id="@+id/textProgressBarH"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="progressBar(horizontal)"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -237,7 +238,7 @@
                     android:id="@+id/textSeekBar"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="SeekBar"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -260,7 +261,7 @@
                     android:id="@+id/textSeekBarD"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="SeekBar(Discrete)"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -286,7 +287,7 @@
                     android:id="@+id/textQuickContactBadge"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="QuickContactBadge"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -310,7 +311,7 @@
                     android:id="@+id/textRatingBar"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="RatingBar"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -333,7 +334,7 @@
                     android:id="@+id/textSwitch"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="Switch"
                     android:textColor="@android:color/holo_green_dark" />
 
@@ -358,7 +359,7 @@
                     android:id="@+id/textSpace"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:background="#252525"
+                    android:layout_marginRight="8dp"
                     android:text="Space"
                     android:textColor="@android:color/holo_green_dark" />
 
